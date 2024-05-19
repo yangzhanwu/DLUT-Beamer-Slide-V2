@@ -1,6 +1,6 @@
 \begin{columns}
-        \column{.6\textwidth}
-\begin{lstlisting}[language=TeX]
+^^I^^I\column{.6\textwidth}
+^^I^^I\begin{lstlisting}[language=TeX]
     \begin{table}[htbp]
       \caption{编号与含义}
       \label{tab:number}
@@ -18,16 +18,16 @@
     编号与含义请参见
     表~\ref{tab:number}。
 \end{lstlisting}
-        \column{.4\textwidth}
-        \begin{table}[htpb]
-            \centering
-            \caption{编号与含义}
-            \label{tab:number}
-            \begin{tabular}{cl}\toprule
-                编号 & 含义 \\\midrule
-                1 & 4.0\\
-                2 & 3.7\\\bottomrule
-            \end{tabular}
-        \end{table}
-        \normalsize 公式~(\ref{eq:vsphere})的编号与含义请参见表~\ref{tab:number}。
-    \end{columns}
+^^I^^I\column{.4\textwidth}
+^^I^^I\begin{table}[htpb]
+^^I^^I^^I\centering
+^^I^^I^^I\caption{编号与含义}
+^^I^^I^^I\label{tab:number}
+^^I^^I^^I\begin{tabular}{cl}\toprule
+^^I^^I^^I^^I编号 & 含义  \\\midrule
+^^I^^I^^I^^I1  & 4.0 \\
+^^I^^I^^I^^I2  & 3.7 \\\bottomrule
+^^I^^I^^I\end{tabular}
+^^I^^I\end{table}
+^^I^^I\normalsize 公式~(\ref{eq:vsphere})的编号与含义请参见表~\ref{tab:number}。
+^^I\end{columns}
